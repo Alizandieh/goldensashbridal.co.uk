@@ -1,0 +1,47 @@
+<?php
+defined('C5_EXECUTE') or die(_("Access Denied."));
+/**
+ * Handles the install of the JellyfishEditableForm package
+ *
+ * @package concrete5-package-jellyfish-editable-form
+ * @author Ali Zandieh <ali.zandieh@jellyfish.co.uk>
+ **/
+class JellyfishEditableFormPackage extends Package {
+    
+    protected $pkgHandle = 'jellyfish_editable_form';
+	protected $appVersionRequired = '5.4.1.1';
+	protected $pkgVersion = '1.00';
+	
+	/**
+	 * C5 function
+	 *
+	 * @access public
+	 * @return string
+	 */
+	public function getPackageDescription() {
+		return t('Contains a block that allows users to add an editable form to their site.');
+	}
+	
+	/**
+	 * C5 function
+	 *
+	 * @access public
+	 * @return string
+	 */
+	public function getPackageName() {
+		return t('Jellyfish Editable Form');
+	}
+	
+	/**
+	 * Installs the Editable_form block
+	 *
+	 * @access public
+	 * @return void
+	 **/
+	public function install() {
+	    $pkg = parent::install();
+	    
+	    BlockType::installBlockTypeFromPackage('editable_form', $pkg);
+	}
+    
+} // END class JellyfishEditableFormPackage extends Package

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btCcSlider">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="fsID" type="I"><unsigned /></field>
+		<field name="autoadvance" type="C" size="50"><default value="true" /></field>
+		<field name="playpause" type="C" size="50"><default value="true" /></field>
+		<field name="playpauseOnClick" type="C" size="50"><default value="true" /></field>
+		<field name="hover" type="C" size="50"><default value="true" /></field>
+		<field name="navigation" type="C" size="50"><default value="true" /></field>
+		<field name="thumbs" type="C" size="50"><default value="true" /></field>
+		<field name="pagination" type="C" size="50"><default value="true" /></field>
+		<field name="navhov" type="C" size="50"><default value="true" /></field>
+		<field name="portrait" type="C" size="50"><default value="false" /></field>
+		<field name="loader" type="C" size="50"><default value="pie" /></field>
+		<field name="barPosition" type="C" size="50"><default value="bottom" /></field>
+		<field name="barDir" type="C" size="50"><default value="leftToRight" /></field>
+		<field name="piePosition" type="C" size="50"><default value="rightTop" /></field>
+		<field name="slideOn" type="C" size="50"><default value="random" /></field>
+		<field name="align" type="C" size="50"><default value="center" /></field>
+		<field name="easing" type="C" size="50"><default value="easeInOutExpo" /></field>
+		<field name="ccFX" type="C" size="50"><default value="random" /></field>
+		<field name="time" type="N" size="32"></field>
+		<field name="transPeriod" type="N" size="32"></field>
+		
+		<field name="captionEnable" type="I" size="2"><default value="0" /></field>
+		
+		<field name="loaderColor" type="C" size="100"></field>
+		<field name="loaderBgColor" type="C" size="100"></field>
+		<field name="ccSkin" type="C" size="50"><default value="azure" /></field>
+	</table>
+	
+	<table name="btCcSliderImg">
+		<field name="CcSliderImgId" type="I">
+			<key />
+			<autoincrement />
+			<unsigned />
+		</field>
+		<field name="bID" type="I"><unsigned /></field>
+		<field name="fID" type="I"><unsigned /></field>	
+		<field name="url" type="C" size="255"></field>		
+		<field name="caption" type="C" size="255"></field>
+		<field name="duration" type="I"><unsigned /></field>
+		<field name="fadeDuration" type="I"><unsigned /></field>
+		<field name="groupSet" type="I"><unsigned /></field>
+		<field name="position" type="I"><unsigned /></field>	
+		<field name="imgHeight" type="I"><unsigned /></field>							
+	</table>
+	
+</schema>

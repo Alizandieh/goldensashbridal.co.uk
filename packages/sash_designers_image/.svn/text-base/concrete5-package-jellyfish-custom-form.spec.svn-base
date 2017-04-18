@@ -1,0 +1,29 @@
+Summary: Concrete5 Package - Jellyfish Custom Form
+Name: concrete5-package-jellyfish-custom-form
+Version: %{version}
+Release: 1
+License: GPL v2+
+Group: Concrete5
+BuildRoot: %{_tmppath}/%{name}-root
+Requires: concrete5-server
+Source0: concrete5-package-jellyfish-custom-form-%{version}.tar.gz
+BuildArch: noarch
+
+%description
+Allows custom forms to be added to the Concrete5 campaign sites
+
+%prep
+%setup -q
+
+%install
+[ "$RPM_BUILD_ROOT" != "/" ] && rm -rf $RPM_BUILD_ROOT
+
+install -d -m 755 $RPM_BUILD_ROOT/usr/share/concrete5/packages/jellyfish_custom_form
+cp -R * $RPM_BUILD_ROOT/usr/share/concrete5/packages/jellyfish_custom_form
+
+%clean
+[ "$RPM_BUILD_ROOT" != "/" ] && rm -rf $RPM_BUILD_ROOT
+
+%files
+%defattr(-,root,root,-)
+/usr/share/concrete5/packages/jellyfish_custom_form
