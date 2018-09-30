@@ -261,17 +261,11 @@ jQuery(document).ready(function($) {
 
 });
 
-// Google maps api settings //
-$(window).load(function() {
-	
-/* Google Maps */
-	loadGoogleMaps();
-	
-});
+
 
 function initGoogleMaps() {
-	/* Google Maps Init */
-	var myLatlng = new google.maps.LatLng(51.470661, -0.191517);
+	/* Google Maps Init */ 
+	var myLatlng = new google.maps.LatLng(51.470616, -0.191328);
 	var myOptions = {
 		zoom: 16,
 		center: myLatlng,
@@ -295,7 +289,8 @@ function loadGoogleMaps() {
 	if($('#googlemap').length != 0){
 		var script = document.createElement("script");
 		script.type = "text/javascript";
-		script.src = "http://maps.google.com/maps/api/js?sensor=false&callback=initGoogleMaps";
+		script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyA1Z3bmkcdf_WoEPw6YuQeFjgq3R1L0oHk&callback=initGoogleMaps";
 		document.body.appendChild(script);
 	}
 }
+

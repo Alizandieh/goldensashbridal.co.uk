@@ -3,7 +3,7 @@
 
 if(isset($_REQUEST["isvalid"])){
     
-    $youremail = "info@goldensashbridal.co.uk,basimshuber@yahoo.co.uk"; // Enter your email here!!
+    $youremail = "info@goldensashbridal.co.uk"; // Enter your email here!!
 
     $usersubject    = "contact form sub";
     $usersemail     = $_POST["usersemail"];

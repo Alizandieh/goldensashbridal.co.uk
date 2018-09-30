@@ -42,9 +42,9 @@
 
 				</p>
 			  </div>
-		<? } else { ?>
+		<?php } else { ?>
 			<span id="footer_copy">&copy; Golden Sash Bridal</span>
-		<? } // end else ?>
+		<?php } // end else ?>
 </div>
 
 
@@ -65,4 +65,3 @@
 <?php  Loader::element('footer_required'); ?>
 </body>
 </html>
-
