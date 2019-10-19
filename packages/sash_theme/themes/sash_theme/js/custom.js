@@ -36,11 +36,11 @@ jQuery(document).ready(function($) {
 	slides 					:  	[			
 	
 	// Slideshow Images
-	{image : '/packages/sash_theme/themes/sash_theme/slides/new_bg1.jpg'},
-	{image : '/packages/sash_theme/themes/sash_theme/slides/new_bg2.jpg'},
-	{image : '/packages/sash_theme/themes/sash_theme/slides/new_bg3.jpg'},
-	{image : '/packages/sash_theme/themes/sash_theme/slides/new_bg4.jpg'},
-	{image : '/packages/sash_theme/themes/sash_theme/slides/new_bg5.jpg'}				
+	{image : '/packages/sash_theme/themes/sash_theme/slides/bg_1.jpg'},
+	{image : '/packages/sash_theme/themes/sash_theme/slides/bg_2.jpg'},
+	{image : '/packages/sash_theme/themes/sash_theme/slides/bg_3.jpg'},
+	{image : '/packages/sash_theme/themes/sash_theme/slides/bg_4.jpg'},
+	{image : '/packages/sash_theme/themes/sash_theme/slides/bg_5.jpg'}				
 	// Slideshow Images							
 								]
 	});

@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> 
 <!-- Css Files -->
 <link rel="stylesheet" media="screen" type="text/css" href="<?php echo $this->getStyleSheet('css/style.css')?>" />
-<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" media="screen" type="text/css" href="<?php echo $this->getStyleSheet('fancybox/jquery.fancybox-1.3.4.css')?>" />
 <!-- Css Files -->
 

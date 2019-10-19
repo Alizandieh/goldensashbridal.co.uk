@@ -3,7 +3,7 @@ body{height:100%;}
 
 /*
 .overlay{
-	 background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/overlay.png); 
+	 background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/overlay.png); 
 	background-repeat: repeat;
 }
 */
@@ -48,7 +48,7 @@ ol{
 }
 
 ol > li{
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/crest.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/crest.png);
 	background-repeat: no-repeat;	
 	padding: 0px 0px 8px 28px;
 	color:#8D8D8D;
@@ -74,7 +74,7 @@ ol > li a:hover{
 	border-radius:4px;
 	z-index:2000;
 	display:none;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/scrolltop.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/scrolltop.png);
 	background-repeat: no-repeat;
 	background-position: 0px 1px;
 	cursor:pointer;
@@ -129,7 +129,7 @@ ol > li a:hover{
 .thirdwidth h1, .thirdwidth h2, .thirdwidth h3, .thirdwidth h4, .thirdwidth h5, .thirdwidth h6
 .quaterwidth h1, .quaterwidth h2, .quaterwidth h3, .quaterwidth h4, .quaterwidth h5, .quaterwidth h6{
 	background-color: transparent;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/transparentblack.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/transparentblack.png);
 	background-repeat: repeat-y;
 	background-position: left top;
 }
@@ -187,6 +187,7 @@ fieldset{
 	font-family: 'Droid Serif', serif;
 	font-size:10pt;
 	padding:8px 12px;
+	margin-bottom: 5px;
 	width:44%;
 	float:left;
 	-moz-border-radius:4px;
@@ -306,7 +307,7 @@ fieldset{
 .nav_wrap_start{
 	width: 221px;
 	position:absolute;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/nav_bg.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/nav_bg.png);
 	background-repeat: repeat;
 	background-color:grey;
 	border-radius: 0px 0px 5px 5px;
@@ -324,7 +325,7 @@ fieldset{
 	width: 221px;
 	float: none;
 	margin-left: 10px;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/nav_bg.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/nav_bg.png);
 	background-repeat: repeat;
 	background-color:grey;
 	border-radius: 0px 0px 5px 5px;
@@ -340,7 +341,7 @@ fieldset{
 	width: 221px;
 	position:absolute;
 	left:10px;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/nav_bg.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/nav_bg.png);
 	background-repeat: repeat;
 	background-color:grey;
 	border-radius: 0px 0px 5px 5px;
@@ -356,7 +357,7 @@ fieldset{
 	width: 202px;
 	height: 80px;
 	float: left;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/logo_bg.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/logo_bg.png);
 	background-repeat: repeat-x;
 	padding:20px 10px 20px 10px
 }
@@ -365,14 +366,14 @@ fieldset{
 	width: 202px;
 	height: 80px;
 	float: left;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/logo_bg.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/logo_bg.png);
 	background-repeat: repeat-x;
 	padding:20px 10px 20px 10px
 }
 .nav, .navcat{
 	width: 100%;
 	float: left;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/nav_bg_top.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/nav_bg_top.png);
 	background-repeat: repeat-x;
 	background-position: left top;
 }
@@ -408,7 +409,7 @@ fieldset{
 .nav > ul > li, .nav > ul > li > ul > li, .navcat > ul > li, .navcat > ul > li > ul > li{
 	width: 100%;
 	padding: 14px 0px 18px 0px;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/splitter.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/splitter.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	text-align: center;
@@ -450,7 +451,7 @@ fieldset{
 	position:absolute;
 	top:-111px;
 	right:-211px;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/nav_bg.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/nav_bg.png);
 	background-repeat: repeat;
 	background-color:grey;
 	border-radius: 0px 5px 5px 0px;
@@ -471,7 +472,7 @@ fieldset{
 	float: left;
 	height: 20px;
 	text-align: center;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/social_bg.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/social_bg.png);
 	background-repeat: repeat-x;
 	padding:10px 0px 9px 0px;
 	border-radius: 0px 0px 5px 5px;
@@ -497,7 +498,7 @@ fieldset{
 	float: none;
 	margin: 40px auto 0px auto;
 	/*
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/main_bg.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/main_bg.png);
 	background-repeat: repeat;
 	border-radius:5px;
 	-moz-box-shadow:0px 0px 6px black;
@@ -534,7 +535,7 @@ fieldset{
 	height: 36px;
 	float: left;
 	background-color: #000;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/Widget_title_bg.jpg);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/Widget_title_bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	font-family:'Droid Serif', serif;
@@ -560,7 +561,7 @@ fieldset{
 	float:left;
 	padding:0px;
 	margin:0px;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/nav_bg_top.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/nav_bg_top.png);
 	background-repeat: repeat-x;
 	background-position: left top;
 	padding:5px 0px 12px 20px;
@@ -592,7 +593,7 @@ fieldset{
 	width: 20px;
 	height: 20px;
 	display:inline-block;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/blog_icons.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/blog_icons.png);
 	background-repeat: no-repeat;
 	background-position: -63px 7px;
 }
@@ -601,7 +602,7 @@ fieldset{
 	width: 20px;
 	height: 20px;
 	display:inline-block;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/blog_icons.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/blog_icons.png);
 	background-repeat: no-repeat;
 	background-position: -43px 10px;
 	margin-left:20px;
@@ -611,7 +612,7 @@ fieldset{
 	width: 20px;
 	height: 20px;
 	display:inline-block;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/blog_icons.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/blog_icons.png);
 	background-repeat: no-repeat;
 	background-position: 2px 9px;
 }
@@ -620,7 +621,7 @@ fieldset{
 	width: 18px;
 	height: 20px;
 	display:inline-block;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/blog_icons.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/blog_icons.png);
 	background-repeat: no-repeat;
 	background-position: -18px 3px;
 	padding:0px;
@@ -633,7 +634,7 @@ fieldset{
 	position:absolute;
 	left:50%;
 	margin-left:-350px;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/main_bg.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/main_bg.png);
 	background-repeat: repeat;
 	height:auto;
 	-moz-box-shadow:0px 0px 6px black;
@@ -649,10 +650,15 @@ fieldset{
 	width: 100%;
 	float: left;
 	text-align: center;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/blogtitle_bg.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/blogtitle_bg.png);
 	background-repeat: repeat-x;
 	border-bottom: 1px solid black;
 	background-position: center top;
+}
+
+.blogtitle.bottom p {
+	text-align: left;
+	margin-left: 30px;
 }
 
 .blogtitle h1, .blogtitle h2, .blogtitle h3{
@@ -709,7 +715,7 @@ fieldset{
 	-o-text-shadow:0px 2px black;
 	-webkit-text-shadow:0px 2px black;
 	text-shadow:0px 2px black;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/logo_bg.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/logo_bg.png);
 	background-repeat: repeat-x;
 	background-position: left top;
 	background-color:#191919;
@@ -797,7 +803,7 @@ fieldset{
 	font-size: 14pt;
 	color: #f5f2eb;
 	background-color: transparent;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/transparentblack.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/transparentblack.png);
 	background-repeat: repeat-y;
 	background-position: left top;
 }
@@ -828,7 +834,7 @@ fieldset{
 	-o-box-shadow: 0px 0px 1px 1px #2E2E2E;
 	-webkit-box-shadow: 0px 0px 1px 1px #2E2E2E;
 	box-shadow: 0px 0px 1px 1px #2E2E2E;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/abrieve.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/abrieve.png);
 	background-repeat: no-repeat;
 	background-position: 2px 2px;
 	font-style: italic;
@@ -920,7 +926,7 @@ fieldset{
 	width:85%;
 	float:left;
 	padding:8px 1% 12px 14%;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/nav_bg_top.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/nav_bg_top.png);
 	background-repeat: repeat-x;
 }
 
@@ -928,7 +934,7 @@ fieldset{
 	width:98%;
 	float:left;
 	padding:8px 1% 10px 1%;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/nav_bg_top.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/nav_bg_top.png);
 	background-repeat: repeat-x;
 	background-color:#191919;
 }
@@ -1027,7 +1033,7 @@ fieldset{
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/po.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/po.png);
 	background-repeat: repeat;
 	overflow:hidden;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1108,7 +1114,7 @@ fieldset{
 #supersized a { width:100%; height:100%; display:block; }
 #supersized li.prevslide { z-index:-20; }
 #supersized li.activeslide { z-index:-10; }
-#supersized li.image-loading { background:#111 url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/progress.gif) no-repeat center center; width:100%; height:100%; }
+#supersized li.image-loading { background:#111 url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/progress.gif) no-repeat center center; width:100%; height:100%; }
 #supersized li.image-loading img{ visibility:hidden; }
 #supersized li.prevslide img, #supersized li.activeslide img{ display:inline; }
 
@@ -1388,7 +1394,7 @@ dt:first-child{
 	width: 221px;
 	float: none;
 	margin: 0px auto 0px auto;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/nav_bg.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/nav_bg.png);
 	background-repeat: repeat;
 	background-color:grey;
 	border-radius: 0px 0px 5px 5px;
@@ -1448,7 +1454,7 @@ dt:first-child{
 	display: none;
 	color: white;
 	padding: 5px 20px;
-	background-image: url(http://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme/images/main_bg.png);
+	background-image: url(https://www.goldensashbridal.co.uk/packages/sash_theme/themes/sash_theme//images/main_bg.png);
 	background-repeat: repeat;
 	font-size: 11px;
 }

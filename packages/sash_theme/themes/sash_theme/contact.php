@@ -54,12 +54,21 @@ $this->inc('elements/left_nav.php');
                 
                 </div>
                 <!-- Page Content -->
-              </div>
-              <div class="clear"></div>
+            </div>
             
-              <!-- Page Item -->
+            <div class="clear"></div>          
+            <!-- Page Item -->
 
-              <div class="page_content_wrap">
+            <div class="blogtitle bottom">
+                        
+                    <?php 
+                        $a = new Area('bottom');
+                        $a->display($c);
+                    ?>  
+            
+            </div>
+
+            <div class="page_content_wrap">
                 
                 <!-- Email Form -->
                 <div class="commentwrap">
